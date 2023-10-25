@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelWorld</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Pacífico Paradise</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nesciunt eos corporis accusantium ullam,
+            deleniti totam ipsa consequuntur in provident aliquam dolores veniam aliquid sapiente, quibusdam, suscipit
+            beatae numquam eum.</p>
+    </header>
+    <section>
+        <article>
+            <h2>
+                Inscriveis piscinas!
+            </h2>
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/c6/1e/65/piscina-externa.jpg?w=1200&h=-1&s=1"
+                alt="piscina" height="500" width="500">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quas, facere nulla earum voluptatibus
+                temporibus rem voluptatum itaque voluptate a ad quia, minus ipsum nisi quis delectus illum ratione!
+                Cumque?</p>
+            <a href="">Mais informações aqui!</a>
+        </article>
+    </section>
+    <section>
+        <article>
+            <h2>
+                Inscriveis praias!
+            </h2>
+            <img src="https://www.hotelpraiadourada.com.br/wp-content/uploads/2020/02/hotel_praia_dourada_estrutura4.jpg"
+                alt="praia" height="500" width="500">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus ipsam labore, quos, deleniti possimus
+                exercitationem veritatis suscipit eum omnis nihil enim at veniam iure aspernatur illum cupiditate cum,
+                repellendus est.</p>
+            <a href="">Mais informações aqui!</a>
+        </article>
+    </section>
+    <section>
+        <article>
+            <h2>
+                Campo de golf!
+            </h2>
+            <img src="https://angraboutiquehotel.com.br/wp-content/uploads/elementor/thumbs/campo-e-mar-2-q0zv8j9zyilqd7s2mxs0cnshj5muws5ghmtt91lu28.jpg"
+                alt="golf" height="500" width="500">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sapiente sint temporibus at magnam a ullam
+                esse ipsam possimus nobis aut labore architecto, quisquam vero, fugiat similique nam exercitationem
+                distinctio!</p>
+            <a href="">Mais informações aqui!</a>
+        </article>
+    </section>
+    <section>
+        <h2>
+            Galeria de Imagens
+        </h2>
+        <article id="galeria">
+            <img ondblclick="aumentarImagem('entrada')" onclick="diminuirImagem('entrada')" id="entrada"
+                src="https://images.trvl-media.com/lodging/6000000/5220000/5211900/5211885/f4acd06d.jpg?impolicy=resizecrop&rw=500&ra=fit"
+                alt="entrada" height="300" width="300">
+            <img ondblclick="aumentarImagem('quarto')" onclick="diminuirImagem('quarto')" id="quarto"
+                src="https://images.trvl-media.com/lodging/3000000/2860000/2853700/2853615/97b1e1be.jpg?impolicy=resizecrop&rw=500&ra=fit"
+                alt="quarto" height="300" width="300">
+            <img ondblclick="aumentarImagem('banheiro')" onclick="diminuirImagem('banheiro')" id="banheiro"
+                src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/198552697.jpg?k=afadae561a37f59353430549b7c8225cb07e51a8a83396945f2d9e948cd00cb3&o=&hp=1"
+                alt="banheiro" height="300" width="300">
+            <img ondblclick="aumentarImagem('refeitorio')" onclick="diminuirImagem('refeitorio')" id="refeitorio"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG7YapibW7PTlvE_0w1raWC2E-ZK5IvJDi8Q&usqp=CAU"
+                alt="refeitorio" height="300" width="300">
+            <img ondblclick="aumentarImagem('playground')" onclick="diminuirImagem('playground')" id="playground"
+                src="https://www.littledayout.com/wp-content/uploads/e-Urban-Jungle-Village_3.jpg" alt="playground"
+                height="300" width="300">
+            <img ondblclick="aumentarImagem('cinema')" onclick="diminuirImagem('cinema')" id="cinema"
+                src="https://www.revistaambientesce.com.br/wp-content/uploads/2021/05/289693.jpg" alt="cinema"
+                height="300" width="300">
+        </article>
+    </section>
+    <section>
+        <article>
+            <h2>Formulário</h2>
+            <form>
+                <label for="nome">Nome:</label><br>
+                <input type="text" name="nome"><br>
+                <label for="email">Email:</label><br>
+                <input type="text" name="email"><br>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea name="mensagem" cols="30" rows="10"></textarea><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </article>
+    </section>
+</body>
+
+</html>
